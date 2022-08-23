@@ -20,7 +20,7 @@ public class App
     	 WebDriver driver ;
     	 Config newconfig = new Config();
     	 driver= newconfig.initialize();
-    	 driver.get("https://macallan-app-qa.tribehome.com/");
+    	 driver.get("Update the url here");
     	 Thread.sleep(3000);
     	 LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
     	 loginPage.loginToApplication("usernameUpdateHere", "passwordUpdateHere");
