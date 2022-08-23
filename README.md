@@ -14,7 +14,7 @@ updates needed after downloading and importing the files.
 1) update the automation/src/main/java/com/tribe/config/Config.java
 with the location of chromedriver.exe executable
 
-2) Username and passwords are currently hardcoded into 
+2) Username and passwords and URL are currently hardcoded into 
 /automation/src/main/java/test/automation/App.java
  or 
  /automation/src/test/java/test/automation/AppTest.java
